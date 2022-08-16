@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: 'Roboto' , sans-serif;
+    background-image: url(background2.png);
+    background-size: 30%;
+    color: rgb(243, 138, 226);
+    
+}
+
+
+.quadrado {
+    display: inline-block;
+    background: rgba(247, 0, 103, 0.788);
+    padding: 3em;
+    border-radius: 3em;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(20px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+.jogador,
+.vencedor {
+    font-size: 23px;
+    margin-top: 10px;
+    
+}
+
+button {
+    display: inline-block;
+    background: rgba(231, 136, 165, 0.767);
+    padding: 3em;
+    border-radius: 3em;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+
+}
